@@ -23,16 +23,21 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
+
     <header class="welcome-header">
         <h1 class="welcome-header__title">카카오톡에 오신 것을 환영합니다!</h1>
-        <p class="welcome-header__text">카카오계정이 있다면, 이메일 또는 핸드폰 번호로 로그인하세요!</p>
+        <p class="welcome-header__text">카카오계정이 있다면 이메일 또는 핸드폰 번호로 로그인하세요!</p>
     </header>
+
     <form id="login-form">
         <input type="text" minlength="6" placeholder="이메일 또는 핸드폰 번호">
         <input type="password" minlength="4" maxlength="14" placeholder="비밀번호">
-        <input type="submit" value="로그인">
-        <input type="submit" value="회원가입">
-        <a href="#">카카오 계정 또는 비밀번호 찾기</a>
+        <!--버튼을 input으로 설정했을 시에는(div class="login-form이 없을 때" css파일에 login-form input: not([type="submit"]))으로 type이 submit이 아닐 때 작동 css파일 확인-->
+        <div class="login-form">
+            <button class="login-form__btn">로그인</button>
+            <button class="login-form__btn">회원가입</button>
+        </div>
+        <a href="#">카카오계정 또는 비밀번호 찾기</a>
     </form>
     
     <script src="https://kit.fontawesome.com/f33940d59f.js" crossorigin="anonymous"></script>
