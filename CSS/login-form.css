@@ -61,7 +61,14 @@
   font-size: 15px;
   font-weight: 600;
 }
-
+.or {
+  display: flex;
+}
+#or__column {
+  height: 1px;
+  width: 40vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .setting-id {
   display: flex;
   margin: 35px 30px;
