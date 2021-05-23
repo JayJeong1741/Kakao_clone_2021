@@ -5,8 +5,9 @@
 }
 #login-form input {
   border: none;
-  padding: 15px 0px;
+  padding: 10px 0px;
   font-size: 15px;
+  font-weight: 600;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
   transition: border-color 0.3s ease-in-out;
@@ -36,7 +37,7 @@
 }
 .login-form__btn {
   background-color: var(--yellow);
-  padding: 20px 0px;
+  padding: 15px 0px;
   margin-bottom: 15px;
   border: none;
   border-radius: 5px;
