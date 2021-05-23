@@ -13,7 +13,7 @@
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.5);
 }
 /*만약 버튼을 inpput type="submit"으로 설정했을 시 다음과 같이 설정
   #login-form input {
@@ -28,12 +28,29 @@
   transition: border-color 0.3s ease-in-out;
   }*/
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: black;
+  border-bottom: 2px solid black;
 }
 .login-form {
   display: flex;
   flex-direction: column;
   margin-top: 45px;
+}
+.maintain-login {
+  display: flex;
+}
+.maintain-login {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 550;
+}
+.maintain-login input {
+  color: var(--yellow);
+}
+.maintain-login label {
+  font-size: 13px;
 }
 .login-form__btn {
   background-color: var(--yellow);
@@ -44,9 +61,24 @@
   font-size: 15px;
   font-weight: 600;
 }
-#login-form a {
-  text-align: center;
+
+.setting-id {
+  display: flex;
+  margin: 35px 30px;
+}
+.setting-id a {
   text-decoration: none;
-  color: inherit;
-  font-size: 13px;
+  color: black;
+  font-size: 12px;
+  opacity: 70%;
+  font-weight: 550;
+}
+.setting-id__column:nth-child(2) {
+  margin-left: 45vw;
+}
+#stick {
+  margin: 5px 10px;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
 }

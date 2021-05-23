@@ -33,15 +33,26 @@
         <input type="text" minlength="6" placeholder="카카오메일 아이디, 이메일, 전화번호 ">
         <input type="password" minlength="4" maxlength="14" placeholder="비밀번호">
         <!--버튼을 input으로 설정했을 시에는(div class="login-form이 없을 때" css파일에 login-form input: not([type="submit"]))으로 type이 submit이 아닐 때 작동 css파일 확인-->
-        <label for="containing login">로그인 상태 유지</label>
-        
+        <div class="maintain-login">
+            <input type="checkbox" class="maintain-login">
+            <label for="maintain-login">로그인 상태 유지</label>
+        </div>
         <div class="login-form">
             <button class="login-form__btn">로그인</button>
             <button class="login-form__btn">회원가입</button>
         </div>
-        <a href="#">카카오계정 또는 비밀번호 찾기</a>
+        
     </form>
+
+    <div class="setting-id">
+        <div class="setting-id__column"><a href="#">회원가입</a></div>
+        <div class="setting-id__column"><a href="#">카카오계정</a></div>
+        <div id="stick"></div>
+        <div class="setting-id__column"><a href="#">비밀번호 찾기</a></div>
+    </div>
+
     
+
     <script src="https://kit.fontawesome.com/f33940d59f.js" crossorigin="anonymous"></script>
 </body>
 </html>
