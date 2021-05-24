@@ -37,7 +37,7 @@
   margin-top: 10px;
 }
 .maintain-login {
-  margin:10px 0px;
+  margin: 10px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -56,7 +56,7 @@
   font-size: 15px;
   font-weight: 600;
 }
-.login-form__btn__QR{
+.login-form__btn__QR {
   padding: 15px 0px;
   margin-bottom: 15px;
   border: none;
@@ -69,14 +69,20 @@
   align-items: center;
   margin-bottom: 15px;
 }
-.or span{
-  color: rgba(0, 0, 0, 0.5);
-  margin: 0px 2.5px;
-}
-#or__column {
+
+.or__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 1px;
-  width: 37vw;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.2);
+}
+.or__column span {
+  display: block;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
 }
 .setting-id {
   display: flex;
@@ -95,6 +101,6 @@
 #stick {
   margin: 5px 10px;
   width: 1px;
-  height: 10px;
+  height: 20px;
   background-color: rgba(0, 0, 0, 0.1);
 }
