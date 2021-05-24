@@ -34,22 +34,17 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  margin-top: 45px;
+  margin-top: 10px;
 }
 .maintain-login {
-  display: flex;
-}
-.maintain-login {
-  margin: 10px 0px;
+  margin:10px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   font-weight: 550;
 }
-.maintain-login input {
-  color: var(--yellow);
-}
 .maintain-login label {
+  margin-left: 5px;
   font-size: 13px;
 }
 .login-form__btn {
@@ -74,12 +69,13 @@
   align-items: center;
   margin-bottom: 15px;
 }
+.or span{
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 2.5px;
+}
 #or__column {
   height: 1px;
-  width: 40vw;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-#or__column span{
+  width: 37vw;
   background-color: rgba(0, 0, 0, 0.2);
 }
 .setting-id {
