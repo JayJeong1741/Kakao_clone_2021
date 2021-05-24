@@ -1,0 +1,15 @@
+.friend {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(241, 241, 241, 0.8);
+  padding: 10px 0px;
+  margin: 0px 20px;
+}
+.friend i {
+  margin: 0px 6px;
+  opacity: 30%;
+}
+.friend__link {
+  text-decoration: none;
+  color: #2e363e;
+}
