@@ -61,17 +61,30 @@
   font-size: 15px;
   font-weight: 600;
 }
+.login-form__btn__QR{
+  padding: 15px 0px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
 .or {
   display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 #or__column {
   height: 1px;
   width: 40vw;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#or__column span{
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .setting-id {
   display: flex;
-  margin: 35px 30px;
+  margin: 30px 30px;
 }
 .setting-id a {
   text-decoration: none;
