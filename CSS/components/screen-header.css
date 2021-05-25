@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
 }
 .screen-header__title {
   font-size: 25px;
