@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 /*Screens*/
 @import "screens/login-form.css";
+@import "screens/main-chat__additional.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
