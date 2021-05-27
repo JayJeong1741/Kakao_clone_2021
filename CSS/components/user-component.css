@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
   padding: 10px 0px;
   margin: 0px 20px;
+}
+.user-component__friend{
+  border-bottom: 0px solid white;
 }
 .user-component__column:first-child {
   display: flex;
@@ -49,19 +52,71 @@
   margin-left: 2px;
   color: #54a06a;
 }
-.user-component__column__menu-title{
-  font-size: 12px;
+.multi_profile{
+  height: 95px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  margin: 0px 20px;
+}
+.main_chats_option{
+  margin: 5px 0px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.6);
 }
-.user-component__hrztal{
+.multi-profile__column{
+  display: flex;
+}
+.multi-profile__column__content{
+  margin-right:20px;
+  width: 50px;
+  height: 60px;
   display: flex;
   flex-direction: column;
-}
-.user-component__hrztal img{
-  margin-top: 7px;
-  margin-left: -20px;
-}
-.user-component__column__subtitle{
   text-align: center;
+}
+.multi-profile__column__subtitle{
   font-size: 13px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.multi-profile__column__content i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+.user-component__column__bthday{
+  display: flex;
+  align-items: center;
+  font-size: 13 px;
+}
+.user-component__column__bthday i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #F26B71;
+}
+.user-component__column__right_num a{
+  opacity: 50%;
+  text-decoration: none;
+  color: black;
+}
+.user-component__column__body{
+  display: flex;
+  height: 50px;
+}
+.friends_name__msg{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+.friends_name{
+  font-size: 17px;
+}
+.friends_msg{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
 }
