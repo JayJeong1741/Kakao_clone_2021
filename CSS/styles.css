@@ -8,6 +8,8 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/friends_profile.css";
+@import "components/multi_profile.css";
 /*Screens*/
 @import "screens/login-form.css";
 @import "screens/main-chat__additional.css";
